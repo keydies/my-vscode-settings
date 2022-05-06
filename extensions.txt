@@ -1,0 +1,20 @@
+1. Auto Import 
+2. Auto Rename Tag
+3. Babel JavaScript
+4. Code Spell Chacker(EN, RU, UA)
+5. CodeSnap
+6. Docker
+7. ES7+ React/Redux/React-Native snippets
+8. ESLint
+9. GitLens — Git supercharged
+10. Import Cost
+11. IntelliCode
+12. JetBrains IDE Keymap
+13. Live Server
+14. Material Icon Theme
+15. Mokka
+16. Path Intellisense
+17. Prettier - Code formatter
+18. Sass
+19. SCSS IntelliSense
+20. Settings Sync
