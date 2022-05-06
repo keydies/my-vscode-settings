@@ -1,0 +1,131 @@
+{
+	//window
+	"window.zoomLevel": 0,
+	"window.openFilesInNewWindow": "off",
+
+	//Main editor settings
+	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.renderControlCharacters": false,
+	"editor.hover.enabled": false,
+	"editor.inlayHints.enabled": "off",
+	"editor.parameterHints.enabled": false,
+	"files.autoSave": "onFocusChange",
+	"editor.quickSuggestions": true,
+	"editor.suggestOnTriggerCharacters": true,
+	"editor.wordBasedSuggestions": false,
+	"editor.renderWhitespace": "none",
+	"editor.bracketPairColorization.enabled": false,
+	//Appearance
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": true,
+
+	//Font
+	"editor.fontSize": 14,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 23,
+
+	//Explorer
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"workbench.startupEditor": "none",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.layoutControl.enabled": false,
+	"workbench.colorTheme": "Mokka",
+	"workbench.tree.renderIndentGuides": "none",
+
+	//Emmet
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.showExpandedAbbreviation": "always",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+
+	// Format & Prettier
+	"prettier.semi": true,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.trailingComma": "none",
+	"prettier.arrowParens": "avoid",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	//Terminal
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+
+	//Other
+	"diffEditor.ignoreTrimWhitespace": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"html.completion.attributeDefaultValue": "singlequotes",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+	//Breadcrums
+	"breadcrumbs.enabled": false,
+
+	// JS & TS
+	"javascript.suggestionActions.enabled": false,
+	"typescript.suggestionActions.enabled": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	//Spell Chacker
+	"cSpell.language": "en, uk, ru",
+	"cSpell.userWords": ["Логін", "Підтвердіть", "Agro"],
+	"cSpell.enabled": true,
+	"cSpell.enableFiletypes": ["jsx", "html", "vue", "scss"],
+	"sync.gist": "b0c2cbabb193ed4fe92ed284c50278d5",
+	"explorer.confirmDelete": false,
+	"editor.linkedEditing": true,
+
+	//Git
+	"scm.diffDecorations": "none",
+	"scm.diffDecorationsGutterAction": "none",
+	"scm.diffDecorationsGutterVisibility": "hover",
+	"scm.diffDecorationsGutterWidth": 1,
+
+	//ESLint
+	"eslint.alwaysShowStatus": true,
+	"git.enableSmartCommit": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	]
+}
