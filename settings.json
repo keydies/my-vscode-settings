@@ -3,7 +3,7 @@
 	"window.zoomLevel": 0,
 	"window.openFilesInNewWindow": "off",
 
-	//Main editor settings
+	//Main editor settingss
 	"editor.tabSize": 4,
 	"editor.wordWrap": "on",
 	"editor.folding": false,
