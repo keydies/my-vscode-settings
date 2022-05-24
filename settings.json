@@ -10,12 +10,12 @@
 	"editor.insertSpaces": false,
 	"editor.smoothScrolling": true,
 	"editor.minimap.enabled": false,
-	"editor.detectIndentation": true,
+	"editor.detectIndentation": false,
 	"editor.suggestSelection": "first",
 	"editor.scrollBeyondLastLine": false,
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.renderControlCharacters": false,
-	"editor.hover.enabled": false,
+	"editor.hover.enabled": true,
 	"editor.inlayHints.enabled": "off",
 	"editor.parameterHints.enabled": false,
 	"files.autoSave": "onFocusChange",
@@ -23,7 +23,16 @@
 	"editor.suggestOnTriggerCharacters": true,
 	"editor.wordBasedSuggestions": false,
 	"editor.renderWhitespace": "none",
-	"editor.bracketPairColorization.enabled": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.lineNumbers": "on",
+	"html.hover.documentation": false,
+	"html.hover.references": false,
+	"css.hover.documentation": false,
+	"css.hover.references": false,
+	"scss.hover.documentation": false,
+	"scss.hover.references": false,
+	"workbench.statusBar.visible": true,
+
 	//Appearance
 	"editor.cursorBlinking": "expand",
 	"editor.cursorSmoothCaretAnimation": true,
@@ -39,8 +48,8 @@
 	"explorer.compactFolders": false,
 	"workbench.startupEditor": "none",
 	"workbench.iconTheme": "material-icon-theme",
+	"material-icon-theme.activeIconPack": "react_redux",
 	"workbench.layoutControl.enabled": false,
-	"workbench.colorTheme": "Mokka",
 	"workbench.tree.renderIndentGuides": "none",
 
 	//Emmet
@@ -54,6 +63,7 @@
 	// Format & Prettier
 	"prettier.semi": true,
 	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"prettier.singleQuote": true,
@@ -78,10 +88,15 @@
 	"[scss]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"[html]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	//Terminal
 	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -103,7 +118,16 @@
 
 	//Spell Chacker
 	"cSpell.language": "en, uk, ru",
-	"cSpell.userWords": ["Логін", "Підтвердіть", "Agro"],
+	"cSpell.userWords": [
+		"Логін",
+		"Підтвердіть",
+		"электровелосипед",
+		"Agro",
+		"browserslist",
+		"Himo",
+		"reduxjs",
+		"Xiaomi"
+	],
 	"cSpell.enabled": true,
 	"cSpell.enableFiletypes": ["jsx", "html", "vue", "scss"],
 	"sync.gist": "b0c2cbabb193ed4fe92ed284c50278d5",
@@ -112,9 +136,8 @@
 
 	//Git
 	"scm.diffDecorations": "none",
-	"scm.diffDecorationsGutterAction": "none",
-	"scm.diffDecorationsGutterVisibility": "hover",
 	"scm.diffDecorationsGutterWidth": 1,
+	"git.confirmSync": false,
 
 	//ESLint
 	"eslint.alwaysShowStatus": true,
@@ -127,5 +150,35 @@
 		"javascriptreact",
 		"typescript",
 		"typescriptreact"
-	]
+	],
+	"todo-tree.highlights.customHighlight": {
+		"TODO": {
+			"type": "line",
+			"foreground": "#FFA500",
+			"iconColour": "#00FF00"
+		},
+		"FIXME": {
+			"type": "line",
+			"foreground": "#FFFF00",
+			"iconColour": "#FF0000"
+		}
+	},
+	//Customize status bar
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#333333",
+		"statusBar.noFolderBackground": "#333333",
+		"statusBar.debuggingBackground": "#333333"
+	},
+	// Live sass cimpiler
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/css"
+		}
+	],
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"workbench.activityBar.visible": false
 }
