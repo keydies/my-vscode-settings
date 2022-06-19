@@ -19,11 +19,15 @@
 	"editor.inlayHints.enabled": "off",
 	"editor.parameterHints.enabled": false,
 	"files.autoSave": "onFocusChange",
-	"editor.quickSuggestions": true,
+	"editor.quickSuggestions": {
+		"comments": "on",
+		"strings": "on",
+		"other": "on"
+	},
 	"editor.suggestOnTriggerCharacters": true,
 	"editor.wordBasedSuggestions": false,
 	"editor.renderWhitespace": "none",
-	"editor.bracketPairColorization.enabled": true,
+	"editor.bracketPairColorization.enabled": false,
 	"editor.lineNumbers": "on",
 	"html.hover.documentation": false,
 	"html.hover.references": false,
@@ -31,7 +35,6 @@
 	"css.hover.references": false,
 	"scss.hover.documentation": false,
 	"scss.hover.references": false,
-	"workbench.statusBar.visible": true,
 
 	//Appearance
 	"editor.cursorBlinking": "expand",
@@ -124,8 +127,14 @@
 		"электровелосипед",
 		"Agro",
 		"browserslist",
+		"btns",
+		"checkmark",
 		"Himo",
+		"nestjs",
 		"reduxjs",
+		"Selle",
+		"Swiper",
+		"Witcher",
 		"Xiaomi"
 	],
 	"cSpell.enabled": true,
@@ -167,7 +176,7 @@
 	"workbench.colorCustomizations": {
 		"statusBar.background": "#333333",
 		"statusBar.noFolderBackground": "#333333",
-		"statusBar.debuggingBackground": "#333333"
+		"statusBar.debuggingBackground": "#191919"
 	},
 	// Live sass cimpiler
 	"liveSassCompile.settings.generateMap": false,
@@ -179,6 +188,5 @@
 		}
 	],
 	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"liveServer.settings.donotShowInfoMsg": true,
-	"workbench.activityBar.visible": false
+	"liveServer.settings.donotShowInfoMsg": true
 }
